@@ -5,7 +5,7 @@
 #' @param base_size Base font size
 #' @return My ggplot2 theme (similar to theme_minimal/theme_bw)
 #' @export
-theme_saf_no_font <-
+theme_saf_website <-
   function(base_size = 12) {
     if (!requireNamespace("ggplot2", quietly = FALSE)) {
       stop("Must install ggplot2 pkg", call. = FALSE)
